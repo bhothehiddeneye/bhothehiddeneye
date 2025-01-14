@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brotherhood of the Hidden Eye</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('hago.png'); /* Set background image */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Prevent repeating */
+            background-position: center; /* Center the background image */
+        }
+        .content-container {
+            background-color: #d2b88c; /* Opaque tan color */
+            padding: 20px;
+            margin: 20px auto; /* Center container with auto margins */
+            max-width: 800px; /* Adjust container width */
+            border-radius: 10px; /* Rounded corners */
+            position: relative; /* Position relative to allow for potential adjustments */
+            z-index: 1; /* Ensure it is above the background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better separation */
+        }
+        h1 {
+            font-family: 'Arial Black', sans-serif; /* Thick and wide font */
+            font-size: 3em; /* Adjusted font size */
+            color: #800000; /* Dark red color */
+            margin-top: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-family: 'Arial Black', sans-serif; /* Thick and wide font */
+            font-size: 2em; /* Adjusted font size */
+            color: #800000;
+            margin: 20px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 0 0 10px;
+            padding: 0;
+        }
+        .quote {
+            font-size: 1.5em;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .symbols img {
+            width: 80px; /* Adjusted size for better fitting */
+            height: auto;
+            margin: 0 10px;
+        }
+        .link-container {
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+        .link-container a {
+            display: block;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #003366;
+            border: 2px solid #003366;
+            text-decoration: none;
+            margin: 15px auto;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+        .link-container a:hover {
+            background-color: #000;
+            border-color: #000;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Brotherhood of the Hidden Eye</h1>
+
+        <div class="quote">"If you want to see the truth, you must be brave enough to look."
+                        </div>
+
+        <h2>Welcome, Join Us</h2>
+
+        <div class="symbols">
+            <img src="EYEOFRA.png" alt="Eye of Ra">
+        </div>
+
+        <p>Email us at <a href="mailto:bhothehiddeneye@gmail.com">bhothehiddeneye@gmail.com</a> to apply for a position.</p>
+
+        <div class="hieroglyphics">
+            <p>𓂀 WE ARE WATCHING</p>
+        </div>
+
+        <div class="rules">
+            <h2>Our 6 Main Rules For New Initiates</h2>
+            <ol>
+                <li>Do not disclose your true name to any disciple.</li>
+                <li>This group is serious; do not make fun at the expense of the group or its members.</li>
+                <li>Be kind to everyone, unless they do not deserve it.</li>
+                <li>Accept everyone for who they are, not what they look like or present themselves as.</li>
+                <li>This is a secret; do not mention the existence of this group, unless it is private to another disciple.</li>
+                <li>In the uncommon chance of meeting in person, be sure to wear a mask or face covering to conceal your identity.</li>
+            </ol>
+        </div>
+
+        <h2>Other Information</h2>
+
+        <div class="link-container">
+            <a href="history.html">History of Ra</a>
+            <a href="ranking.html">Ranking System</a>
+            <a href="6tenets.html">6 Vital Tenets</a>
+            <a href="discord">Discord Link</a>
+             <a href="heretic">Heretic Recognition</a>
+        </div>
+    </div>
+</body>
+</html>
